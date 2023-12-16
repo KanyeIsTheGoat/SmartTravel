@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+.header-miembros{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:65px;
+
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding:25px 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-weight: bold;
+  border-bottom: solid 1px #EEEE;
+}
+
+.header-miembros .miembros{
+  margin-right: 30px; 
+  
+}
+
+
+
+.header-documentos{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:65px;
+
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding:25px 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-weight: bold;
+  border-bottom: solid 1px #EEEE;
+}
+
+.header-documentos .documentos{
+  margin-right: 30px; 
+}
+
+.header-documentos .documentos2{
+  margin-right: 30px; 
+}
+
+.header-encuestas{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:65px;
+
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding:25px 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-weight: bold;
+  border-bottom: solid 1px #EEEE;
+}
+
+.header-encuestas .encuestas{
+  margin-right: 30px; 
+}
+
+.tablaMiembros td{
+  text-align: center;
+}
+
+.tablaMiembros{
+  width: 100%;
+  margin-top: 16px;
+}
+
+.tablaMiembros td{
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+
+.header-miembros a{
+    text-decoration: none;
+    color:black;
+    font-size:24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.header-documentos a{
+  text-decoration: none;
+  color:black;
+  font-size:24px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.header-encuestas a{
+  text-decoration: none;
+  color:black;
+  font-size:27px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.lista-miembros h1{
+    margin-top:116px;
+    margin-left:35px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+
+    font-weight: bold;
+}
+
+.title-miembros{
+  color:gray;
+  font-size:15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  
+}
+
+th, td, .add-miembro, .add-miembro p{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.member-miembros{
+  margin-left:20px;
+}
+
+.container-miembros {
+  display: flex;
+  align-items: center;
+  margin-top: 19px;
+  max-width: 360px;
+  font-size: 17px;
+  margin-left: 36px;
+  width: 100%;
+}
+
+.container-miembros {
+  width: 100%;
+}
+
+
+  .user-icon-miembros{
+    font-size:30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.member-miembros {
+  white-space: nowrap; /* Evitar que el texto se desborde a la siguiente línea */
+  overflow: hidden; /* Ocultar cualquier contenido que desborde */
+  text-overflow: ellipsis; /* Mostrar puntos suspensivos (...) si el texto se desborda */
+}
+
+.miembros-miembros h2{
+  margin-top:51px;
+  margin-bottom: 26px;
+  margin-left:46px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.add-miembro{
+  margin-top:30px;
+  margin-left:10px;
+  border-radius: 20px;
+  background-color: #D0CBFF;
+  background-size:cover;
+  background-position:center;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  height:49px;
+  width: 95%;
+  font-size:15px;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  margin-top:50px;
+}
+
+
+
+
+
+.link-miembros {
+  text-decoration: none;
+  color: black;
+}
+
+.eliminar-miembro{
+  
+  border-radius: 20px;
+  background-color: #D0CBFF;
+  background-size:cover;
+  background-position:center;
+  
+  margin-left:auto;
+  height:35px;
+
+  padding: 5px;
+
+  
+  font-size:15px;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+    font-weight: 700;
+  
+}
+
+.eliminar-miembro {
+  height: 2em; /* Usar tamaños relativos en lugar de tamaños fijos */
+}
+
+.lista-documentos h1{
+  margin-top:116px;
+  margin-left:46px;
+
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.style-docs{
+  margin-top:100px;
+  margin-left:46px;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+    font-weight: 700;
+  color:gray;
+}
+
+.container-docs{
+  margin-top:100px;
+  margin-left:46px;
+}
+
+.container-docs label{
+  font-weight:bold;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  
+}
+
+.container-docs select{
+  background-color: #D0CBFF;
+  background-size:cover;
+  background-position:center;
+  border-radius: 25px;
+  margin-top:7px;
+}
+
+.container-miembros p, .container-miembros .eliminar-miembro, .add-destino2, .p-style2{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.container-label input{
+  margin-top:7px;
+}
+
+
+
+.container-label{
+  margin-top:25px;
+}
+
+.member-balance{
+  margin-left:  auto;
+}
+
+

@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+
+*{
+    margin:0;
+    padding:0;
+    
+    /*font-family:'Noto Sans', sans-serif;*/
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    
+}
+
+.header-destinos{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:65px;
+
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding:25px 15px;
+    font-weight: bold;
+}
+
+
+
+.header-destinos .miembros{
+  margin-right:50px;
+}
+
+
+
+.tablaDestinos {
+  width: 95%;
+  margin-top: 100px;
+}
+
+.tablaDestinos td {
+  text-align: center;
+}
+
+.header-destinos .destinos{
+  margin-right:50px;
+}
+
+.header-destinos2{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:65px;
+
+
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding:25px 15px;
+  font-weight: bold;
+}
+
+
+
+.add-documentos{
+    margin-top:30px;
+  margin-left:40px;
+  border-radius: 20px;
+  background-color: #D0CBFF;
+  background-size:cover;
+  background-position:center;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  height:49px;
+  width: 80%;
+  font-size:15px;
+  font-weight: bold;
+  font-family: inter;
+}
+.header-destinos a{
+    text-decoration: none;
+    color:black;
+    font-size:27px;
+    font-family: lora;
+}
+
+.p-style1{
+    margin-top:100px;
+    font-family:inter;
+}
+
+.p-style2{
+  margin-top:50px;
+  margin-bottom:10px;
+  text-align:center;
+}
+
+.form1-destinos{
+   
+    
+    margin: 0 auto;
+ 
+  width:70%;
+}
+
+.form1-destinos label, .form2-destinos label{
+    font-size:20px;
+    display:flex;
+    font-weight: bold;
+    margin-bottom:15px;
+}
+
+
+
+.p-style{
+    margin-top: 20px;
+    font-family:inter;
+}
+
+.form1-destinos input, .form2-destinos input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.select-miembro{
+    margin-left: 15px;
+}
+
+.container-label input{
+    width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.form2-destinos{
+    margin-left:28px;
+}
+
+.add-destino{
+    margin-top:30px;
+    border-radius: 20px;
+    background-color: #D0CBFF;
+    border-color:#D0CBFF;
+    height:49px;
+    width:285px;
+    font-size:15px;
+    font-weight: bold;
+    font-family:inter;
+}
+
+.add-destino2 {
+  margin-top: 30px;
+  margin-left: 20px;
+  border-radius: 20px;
+  background-color: #D0CBFF;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 49px;
+  width: 90%;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+
+
+.add-respuesta {
+  border-radius: 10px;
+  background-color: #D0CBFF;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 49px;
+  width: 90%;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 50px;
+  font-family:inter;
+}
+
+.eliminar-destino {
+  border-radius: 20px;
+  background-color: #D0CBFF;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  height: 35px;
+  font-size: 15px;
+  font-weight: bold;
+  white-space: nowrap; /* Evita que el texto se desborde a la siguiente línea */
+  overflow: hidden; /* Oculta cualquier contenido que desborde */
+  text-overflow: ellipsis; /* Muestra puntos suspensivos (...) si el texto se desborda */
+}
+
+
+/* Estilo para el contenedor de la lista desplegable */
+.container-miembros {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* / Estilo para el encabezado de la lista desplegable / */
+h2 {
+  cursor: pointer;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* / Estilo para la lista desplegable / */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+/* / Estilo para cada elemento de la lista desplegable / */
+li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #f9f9f9;
+  font-size:15px;
+}
+
+/* / Estilo para los botones dentro de cada elemento de la lista desplegable / */
+.button-list {
+  margin-left: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+
+/* 
+/ Estilo para el botón Agregar Documento / */
+
+
+

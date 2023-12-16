@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    
+    /*font-family:'Noto Sans', sans-serif;*/
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    
+}
+
+.header-gastos{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding:25px 15px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.header-gastos a{
+    text-decoration: none;
+    color:black;
+    font-size:24px;
+}
+
+.lista-gastos h1{
+    margin-top:116px;
+    margin-left:46px;
+    font-size:20px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.container-gastos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:19px;
+    width:323px;
+    height:29px;
+    margin-left:46px;
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+  }
+  .user-icon-gastos{
+    font-size:30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.member-gastos{
+    margin-right:110px;
+}
+
+.gastos-gastos h2{
+    margin-top:51px;
+    margin-bottom: 26px;
+    margin-left:46px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}

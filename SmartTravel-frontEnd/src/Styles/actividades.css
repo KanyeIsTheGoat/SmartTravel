@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.header-actividades{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:65px;
+  
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding:25px 15px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    border-bottom: solid 1px #EEEE;
+}
+
+.header-actividades .miembros{
+    margin-right: 10%;  
+}
+
+
+.header-actividades a{
+    text-decoration: none;
+    color:black;
+    font-size:24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    
+}
+
+.tablaActividades{
+    width: 100%;
+    margin-top: 116px;
+}
+
+.tablaActividades td{
+    text-align: center;
+    max-width: 159px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.add-actividad{
+    margin-top:30px;
+    margin-left:20px;
+    border-radius: 20px;
+    background-color: #D0CBFF;
+    background-size:cover;
+    background-position:center;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height:49px;
+    width: 90%;
+    font-size:15px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-top:50px;
+
+}
+
+.eliminar-actividad{
+  
+    border-radius: 20px;
+    background-color: #D0CBFF;
+    background-size:cover;
+    background-position:center;
+    
+    margin-left:auto;
+    height:35px;
+  
+    
+    font-size:15px;
+    font-weight: bold;  
+    font-family: 'Inter', sans-serif;
+    font-weight: 700; 
+}
+
+/*       AGREGAR ACTIVIDADES       */
+
+.add-actividad-btn{
+    margin-top:30px;
+    border-radius: 20px;
+    background-color: #D0CBFF;
+    background-size:cover;
+    background-position:center;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height:49px;
+    width: 90%;
+    font-size:15px;
+    font-weight: bold;
+    margin-top:50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+ 
+  .tablaActividades th, .tablaActividades td {
+    border-bottom: 1px solid #ddd;
+    padding: 4px;
+    
+  }
+  
+.tablaActividades{
+    margin-top:110px;
+
+}
+
+  .tablaActividades th {
+    background-color: #D0CBFF;
+  }
+  
+ 
